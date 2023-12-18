@@ -170,9 +170,9 @@ transform: translateY(-15px);
 }
 
  .Strand {
-    background-image: url("images/Contactafb.JPG");
-    background-size: cover;
-    background-attachment: fixed;
+    
+    
+    
     width: 100vw;
     height: 150vh;
     margin-top: 80px;
