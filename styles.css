@@ -150,6 +150,7 @@ transform: translateY(-15px);
     -webkit-text-stroke-color: black;
     font-weight: bolder;
     text-align: center;
+    margin-top: 60px;
     
   }
 
@@ -171,12 +172,10 @@ transform: translateY(-15px);
 
  .Strand {
     
-    
-    
-    width: 100vw;
-    height: 150vh;
     margin-top: 80px;
+    margin-bottom: 30px;
     
+    margin-right: 800px;
     object-fit: cover;
     border-radius: 0%;
 }
