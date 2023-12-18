@@ -1,3 +1,4 @@
+/* Algemeen en de structuur */
 
 h1 {text-align: center;}
 body {
@@ -8,14 +9,34 @@ body {
     }
 
     header {
-        display: flex;
+        
        
         background-color: transparent;
         padding: 0 200px;
         
         align-items: center;
+        padding-bottom: 10px;
+        
         
     }
+    main {
+    margin-left: 130px;
+    margin-right: 130px;
+    
+}
+
+div.Sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+    hr {
+        color: white;
+        height: 6px;
+        background-color: white;
+    }
+/* Home pagina */
 
     .Begin-informatie{
         font-size: 22px;
@@ -33,6 +54,32 @@ body {
         margin-left: 250px;
         margin-top: 50px;
     }
+
+  .FotoBoot{
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-left: 350px;
+    max-width: 96%;
+    height: auto;
+    transition: 0.5s;
+}
+  .FotoBoot:hover{
+    transform: translateY(-20px);
+
+}  .FotoOlifant{
+transition: 0.5s;
+}
+  .FotoOlifant:hover{
+    transform: translateY(-20px);
+}
+  .FotoBegin{
+    margin-left: 350px;
+    transition: 0.5s;
+}
+   .FotoBegin:hover {
+transform: translateY(-20px);
+}
+    /* Kohtao pagina */
 
     .paragraaftoa {
     margin-bottom: 100px;
@@ -58,6 +105,8 @@ body {
         font-size: 18px;
     }
 
+/* KohPhiPhi pagina */
+
     .KohPhiPhip1 {
 text-align: center;
 font-size: 22px;
@@ -65,6 +114,16 @@ font-size: 22px;
     .KohPhiPhip2 {
         text-align: center;
     }
+.BootjePhi {
+    
+    transition: 0.5s;
+}
+    .BootjePhi:hover {
+transform: translateY(-15px);
+    }
+    
+  
+/* Railay pagina */
     .Railayp1 {
         text-align: center;
         font-size: 22px;
@@ -73,22 +132,16 @@ font-size: 22px;
         text-align: center;
     }
 
-main {
-    margin-left: 130px;
-    margin-right: 130px;
+  /* Contact pagina */
+  .Vragen {
     
-}
+  }
 
-.FotoBoot{
-    margin-top: 40px;
-    margin-right: 300px;
-}
-.FotoOlifant{
 
-}
-.FotoBegin{
-    margin-left: 350px;
-}
+
+
+
+
 img {
     max-width: 100%;
     max-height: 530px;
@@ -109,21 +162,32 @@ img {
     margin-right: 40px;
     margin-left: 100px;
     text-decoration: none;
-    cursor: pointer;
+    
     
    
     
 }
+.Contact {
+    margin-right: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+    
+}
 
    
-  .list {
-    
-  }  
+ul {
+    list-style: none;
+    background-color: beige;
+    text-align: center;
+    border-radius: 40%;
+}
 
 ul li{
     list-style: none;
     display: inline-block;
     position: relative;
+    
+  
     
     
 }
@@ -135,13 +199,21 @@ ul li a{
     text-decoration: none;
     
 }
+ul li ul li a {
+   display: block;
+   background-color: beige;
+}
 
-.dropbtn {
-    background-color: transparent;
+button.dropbtn {
+    background-color: beige;
     color: black;
+    padding: 7px 7px;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     border: none
+    
+    
+    
     
     
 }
@@ -149,47 +221,57 @@ ul li a{
 .dropdown {
     position: relative;
     display: inline-block;
-   margin-top: 0%;
+    margin-top: 0%;
+    padding-left: 10px;
+    
+  
 
 }
 
 .dropdown-content{
     display: none;
     position: absolute;
-    min width: 160px;
-    z-index: 1;
+    right: 0%;
+    top: 10px;
+    
+  
 }
 
 .dropdown-content a{
     color: black;
-    padding: 12px 16px;
+    padding: 20px 20px;
+    
     text-decoration: none;
     display: block;
 }
 .dropdown-content a:hover{
-    background-color: aquamarine;
+    background-color: white;
+    
+    
 
 
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
+
 }
 .dropdown:hover .dropbtn {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.557);
 }
 
-.Contact {
-    margin-right: 40px;
-    margin-left: 100px;
-    
-}
 
 .Strand {
-    width: 900px;
-    height: 450px;
+    background-image: url("images/Contactafb.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 150vh;
+    
     object-fit: cover;
+    border-radius: 0%;
 }
+
 
 /*
 
