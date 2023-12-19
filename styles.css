@@ -86,6 +86,7 @@ transform: translateY(-20px);
 
     .paragraaftoa {
     margin-bottom: 100px;
+    
      
     }
     .Kohtaobox{
@@ -95,7 +96,7 @@ transform: translateY(-20px);
     .Kohtaobox2{
         width: 500px;
         padding-top: 200px;
-        font-size: 17px;
+        font-size: 20px;
         height: 700px;
     }
     .Kohtaop1{
@@ -117,10 +118,12 @@ font-size: 22px;
     .KohPhiPhip2 {
         text-align: center;
         font-size: 20px;
+        margin: 100px 40px;
     }
     .KohPhiPhip3 {
-        font-size: 17px;
+        font-size: 20px;
         text-align: center;
+        margin: 100px 100px;
     }
 .BootjePhi {
     
@@ -138,6 +141,23 @@ transform: translateY(-15px);
     }
     .Railayp2 {
         text-align: center;
+    }
+
+    .Railaybox {
+width: 400px;
+float: inline-start;
+    }
+    .Railaybox2 {
+width: 500px;
+padding-top: 400px;
+float: right;
+
+    }
+    .Railayp3 {
+font-size: 18px;
+    }
+    .Railayp4 {
+font-size: 18px;
     }
 
   /* Contact pagina */
